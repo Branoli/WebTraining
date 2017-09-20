@@ -1,0 +1,42 @@
+body{
+    background-image: url('../image/background.png');
+    /*background-color: #c7b39b;*/
+}
+.mainPage{
+    background: #e9edf7;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 1000px;
+    width: 80%;
+    margin-left: 10%;
+}
+.blockUL{
+    list-style: none;
+}
+.blockUL li a{
+    text-decoration: none;
+    display: block;
+}
+
+#styleHeader {
+    background: #353639;
+    width: 97%;
+    float:left;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+#styleHeader li {
+    float:left;
+    text-align: center;
+    line-height: 50px;
+}
+#styleHeader li:hover {
+    background: #838383;
+}
+#styleHeader a {
+    display: block;
+    color: #838383;
+    padding: 0 110px;
+}
+#styleHeader a:hover {
+    color: #353639;
+}
