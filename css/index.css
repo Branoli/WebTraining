@@ -1,6 +1,6 @@
 body{
-    background-image: url('../image/background.png');
-    /*background-color: #c7b39b;*/
+    /*background-image: url('../image/background.png');*/
+    background-color: #393b3f;
 }
 .mainPage{
     background: #e9edf7;
@@ -17,26 +17,45 @@ body{
     text-decoration: none;
     display: block;
 }
-
+.underHeader {
+    background-color: #2f4f4f ;
+    height: 100%;
+}
 #styleHeader {
     background: #353639;
     width: 97%;
-    float:left;
-    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    float:right;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 0;
 }
 #styleHeader li {
     float:left;
     text-align: center;
     line-height: 50px;
 }
-#styleHeader li:hover {
-    background: #838383;
-}
 #styleHeader a {
     display: block;
     color: #838383;
     padding: 0 110px;
 }
-#styleHeader a:hover {
-    color: #353639;
+#aEdit a:hover {
+    color: #c8c9ca;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 3px;
+}
+#LOGO a{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 200%;
+    height: 30px;
+    padding: 0 105.5px;
+}
+#butStart {
+    font-size: 500%;
+    background-color: dimgrey;
+    color: darksalmon;
+    font-family: sans-serif;
+    padding: 30 60px;
+    margin: 25% 0 0 35%;
+    border-radius: 15px;
 }
