@@ -3,10 +3,10 @@ body{
     background-color: #393b3f;
 }
 .mainPage{
-    background: #e9edf7;
+    background: #393b3f;
     position: absolute;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    height: 1000px;
+    height: 2000px;
     width: 80%;
     margin-left: 10%;
 }
@@ -26,6 +26,7 @@ body{
     height: 100%;
 }
 .styleHeader {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background: #353639;
     width: 97%;
     float:right;
@@ -54,12 +55,4 @@ body{
     height: 30px;
     padding: 0 105.5px;
 }
-.butStart {
-    font-size: 500%;
-    background-color: dimgrey;
-    color: darksalmon;
-    font-family: sans-serif;
-    padding: 30 60px;
-    margin: 25% 0 0 35%;
-    border-radius: 15px;
-}
+
