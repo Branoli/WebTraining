@@ -28,7 +28,7 @@ body{
 .styleHeader {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background: #353639;
-    width: 97%;
+    width: 96%;
     float:right;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     margin-top: 0;
@@ -38,12 +38,11 @@ body{
     float:left;
     text-align: center;
     line-height: 50px;
-    padding: 0 5%;
+    padding: 0 10%;
 }
 .styleHeader a {
     display: block;
     color: #838383;
-    padding: 0 110px;
 }
 .aEdit a:hover {
     color: #c8c9ca;
