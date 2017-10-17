@@ -1,15 +1,24 @@
 <?php
 include 'Menu.php';
-include 'Content.php';?>
+include 'Content.php';
+include 'Style.php'?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>gameName</title>
         <link rel="stylesheet" href="assets/css/generalStyles.css">
-        <link rel="stylesheet" href="assets/css/about.css">
-        <link rel="stylesheet" href="assets/css/start.css">
-        <link rel="stylesheet" href="assets/css/topList.css">
+        <?php
+        $page = $_GET['page'];
+        if (!empty($page))
+        {
+            Style::Get_Style($page);
+        }
+        else
+        {
+            Style::Get_Style(1);
+        }
+        ?>
     </head>
     <body>
     <div class="mainPage">
