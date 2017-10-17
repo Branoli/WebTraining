@@ -13,8 +13,8 @@ class Content
         2=>'assets/about.php',
         3=>'assets/topList.php'
     );
-    public static function Get_Page($num_page)
+    public static function Get_Page($page)
     {
-        return Content::$pages[$num_page];
+        echo Content::$pages[$page];
     }
 }

@@ -12,7 +12,17 @@ include '../Content.php'
     </head>
     <body>
         <div class="mainPage">
-            <?php Menu::Get_Menu(1)?>
+            <?php
+            $page = $_GET['page'];
+            if (!empty($page))
+            {
+                Content::Get_Page($page);
+            }
+            else
+            {
+                Menu::Get_Menu(1);
+            }
+            ?>
             <div class="underHeader">
               <button class='butStart'>StartGame</button>
             </div>
