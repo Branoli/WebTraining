@@ -1,0 +1,14 @@
+.pJustxt {
+    font-size: 190%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #838383;
+}
+.imgS {
+    margin-left: 7%;
+    width: 87%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
