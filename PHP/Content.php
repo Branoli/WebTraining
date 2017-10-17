@@ -9,12 +9,12 @@
 class Content
 {
     public static $pages=array(
-        1=>'assets/start.php',
-        2=>'assets/about.php',
-        3=>'assets/topList.php'
+        1=>'assets/start.html',
+        2=>'assets/about.html',
+        3=>'assets/topList.html'
     );
     public static function Get_Page($page)
     {
-        echo Content::$pages[$page];
+        require Content::$pages[$page];
     }
 }
