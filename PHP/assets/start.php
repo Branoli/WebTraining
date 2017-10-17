@@ -1,3 +1,7 @@
+<?php
+include '../Menu.php';
+include '../Content.php'
+?>
 <!DOCTYPE html>
 <html>
     <head>
