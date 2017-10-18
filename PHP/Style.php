@@ -9,6 +9,6 @@ class Style
     );
     public static function Get_Style($style)
     {
-        echo Style::$Style[$style];
+        echo self::Style::$Style[$style];
     }
 }
