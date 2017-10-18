@@ -15,6 +15,6 @@ class Content
     );
     public static function Get_Page($page)
     {
-        require Content::$pages[$page];
+        require self::Content::$pages[$page];
     }
 }
