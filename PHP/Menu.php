@@ -24,7 +24,7 @@ class Menu
     );
     public static function Get_Menu($menu)
     {
-        echo Menu::$Menu[$menu];
+        echo self::Menu::$Menu[$menu];
     }
 }
 
